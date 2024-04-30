@@ -6,7 +6,7 @@ class Sprite(pygame.sprite.Sprite): # Cookie is a subclass/child class of Sprite
     self.image = pygame.image.load(img)
     self.width = self.image.get_width()
     self.height = self.image.get_height()
-    self.image = pygame.transform.scale(self.image, (self.width*scale, self.height*scale))
+    self.image = pygame.transform.smoothscale(self.image, (self.width*scale, self.height*scale))
     self.rect = self.image.get_rect()
     self.rect.x = x
     self.rect.y = y

@@ -56,10 +56,14 @@ etc...
 ## Test #1
 - Step 1: Start Game
     - Go to src/controller.py, then open terminal to type:
-        - ```py
+      ```py
+        cd src
+      ```
+    - Then type into the terminal:
+        ```
           python3 controller.py
-          ```
-        - Click the Start button
+        ```
+    - Click the Start button
 - **Expected Outcome**
   - The starting screen disappears, and the main game screen appears
 
@@ -68,4 +72,7 @@ etc...
     - Click on the realistic chocolate chip cookie on the left
 - **Expected Outcome**
   - The Jojo Siwa currency increases by 1
+
+## Test #3
+-Step 3: 
             
