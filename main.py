@@ -1,4 +1,5 @@
 import pygame
+from src import Controller
 #import your controller
 
 def main():
@@ -11,3 +12,4 @@ def main():
 # https://codefather.tech/blog/if-name-main-python/
 if __name__ == '__main__':
     main()
+
